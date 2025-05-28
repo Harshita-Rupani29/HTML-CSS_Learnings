@@ -1,0 +1,104 @@
+.button-subscribe{
+  background-color: rgb(156, 22, 22);
+  color: white;
+  border: none;
+   height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+.button-subscribe:hover{  /*pseudo class*/
+  opacity: 0.9;
+}
+.button-subscribe:active{  /*pseudo class*/
+  background-color: 0.5;
+}
+.button-join{
+  color: rgb(35, 109, 194);
+  border-color: rgb(35, 109, 194);
+  border-style: solid;
+  border-width: 1px;
+   height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.button-join:hover{
+color: white;
+background-color: rgb(35, 109, 194);
+}
+.button-join:active{
+ opacity: 0.5;
+}
+.button-tweet{
+  background-color: rgb(35, 109, 194);
+  border: none;
+  height: 36px;
+  width: 74px;
+  color: white;
+  border-radius: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.button-tweet:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+
+.test{
+ min-height: 90px;
+ padding: 0px;
+}
+
+
+.request-now{
+ margin-bottom: 10px;
+ background-color: black;
+ color: white;
+ padding: 5px 20px 5px 20px;
+ cursor: pointer;
+ transition: opacity 0.15s;
+ border-radius: 2px;
+ font-weight: bold;
+}
+.request-now:hover{
+  opacity: 0.8;
+}
+
+
+.add-to-cart{
+  padding: 4px 30px 4px 30px ;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgba(240, 193, 75,0.9);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.add-to-cart:hover{
+  background-color: rgb(240, 193, 75);
+}
+
+
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    margin-bottom: 10px;
+  }
+
+  .github-button:hover {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+  }

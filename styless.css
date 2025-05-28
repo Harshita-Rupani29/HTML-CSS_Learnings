@@ -1,0 +1,25 @@
+.paragraph{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;width: 300px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+.bg{
+  background-color: red;
+  
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family: Arial;
+    cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+.text{
+  margin-left: 2px;
+}
+
+.text:hover{
+  text-decoration: underline;
+}

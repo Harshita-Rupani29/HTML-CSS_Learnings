@@ -1,0 +1,30 @@
+.first-name-input,
+.last-name-input{
+border-width: 1px;
+  border-radius: 7px;
+   padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.last-name-input{
+  margin-left: 3px;
+}
+.email-input{
+  margin-top: 10px;
+  border-width: 1px;
+  border-radius: 7px;
+  display: block;
+   padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.sign-up-button{
+  background-color: rgb(30, 104, 179);
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 80px 10px 80px;
+  border-radius: 10px;
+}
